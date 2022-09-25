@@ -13,4 +13,4 @@ const products = ingredients.map((ingredient) => {
   return item;
 });
 
-document.querySelector("ul#ingredients").append(...products);
+document.querySelector("#ingredients").append(...products);
